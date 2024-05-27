@@ -197,7 +197,7 @@ class TDigestUDT(UserDefinedType):
 
     @classmethod
     def scalaUDT(cls):
-        return "org.apache.spark.isarnproject.sketches.udtdev.TDigestUDT"
+        return "org.apache.spark.isarnproject.sketches.tdigest.udt.TDigestUDT"
 
     def simpleString(self):
         return "tdigest"
